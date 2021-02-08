@@ -1,0 +1,10 @@
+
+- Add the Plots package: Pkg: add Plots
+
+
+Changes made:
+- exmaples/example-Hb.jl
+- src/module-Basics.jl
+- src/module-BasicsAZ-inc-AG.jl
+- src/module-Pulse.jl
+- src/module-Radial.jl
