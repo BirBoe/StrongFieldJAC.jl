@@ -8,3 +8,4 @@ Changes made:
 - src/module-BasicsAZ-inc-AG.jl
 - src/module-Pulse.jl
 - src/module-Radial.jl
+- src/module-StrongField.jl
