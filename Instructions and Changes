@@ -1,11 +1,18 @@
-
+DO THIS before running exmaples/example-Hb.jl:
 - Add the Plots package: Pkg: add Plots
+
+To run the StrongField example and play with the parameters:
+(1) Open a terminal in the main directory "StrongFieldJAC"
+(2) load JAC with the command include("src/jac.jl")
+(3) run the StrongField-example with the command include("examples/example-Hb.jl")
+(4) Look at the computed energy spectrum that was saved to the file "energy_spectrum.png" in the main directory "StrongFieldJAC"
+(5) Change the parameters in "examples/example-Hb.jl" and start again from point (3)
 
 
 Changes made:
 - exmaples/example-Hb.jl
-- src/module-Basics.jl
-- src/module-BasicsAZ-inc-AG.jl
-- src/module-Pulse.jl
-- src/module-Radial.jl
+- src/module-Basics.jl          (added definitions for elliptical polarization)
+- src/module-BasicsAZ-inc-AG.jl (added definitions for elliptical polarization)
+- src/module-Pulse.jl           (added definitions for elliptical polarization)
+- src/module-Radial.jl          (added functions GridGL for a "Finite" grid and GridGH)
 - src/module-StrongField.jl
